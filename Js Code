@@ -1,0 +1,11 @@
+var yourName = prompt("What is your Name?");
+
+var capLetter = yourName.slice(0, 1);
+
+var upcas = capLetter.toUpperCase();
+
+var smallLetter = yourName.slice(1, yourName.lenth);
+
+var lowcas = smallLetter.toLowerCase();
+
+alert("Hey " + upcas + lowcas + "!")
